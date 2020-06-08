@@ -39,7 +39,7 @@ dnstest文件夹内文件属于功能测试文件
 运行时，需要运行client.py、service.py（或socclient.py、socservice.py ）、service_root.py、
 service_com.py、service_com2.py、service_testcom.py
 
-！！！记得修改每一个py文件内对应打开的txt文件对于的路径！！！
+！！！记得修改每一个py文件内对应打开的txt文件对应的路径！！！
 
 DNS解析的两种方式流程： https://www.jianshu.com/p/6b502d0f2ede
 测试样例可根据上述网站了解流程过后，观察soc_X.txt文件自行测试
