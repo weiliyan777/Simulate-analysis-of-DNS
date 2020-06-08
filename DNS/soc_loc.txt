@@ -1,0 +1,5 @@
+{"name": "www.qq.com", "type": "1", "rrclass": "1", "ttl": "15453", "rdlength": "5", "rdata": "14.18.175.215"}
+{"name": "www.baidu.com", "type": "1", "rrclass": "1", "ttl": "1523", "rdlength": "8", "rdata": "14.215.177.39"}
+{"name": "nuaa.edu.cn", "type": "1", "rrclass": "1", "ttl": "1285", "rdlength": "9", "rdata": "218.94.136.185"}
+{"name": "www.sina.com", "type": "1", "rrclass": "1", "ttl": "156", "rdlength": "7", "rdata": "115.238.190.240"}
+{"name": "www.sina.com", "type": "1", "rrclass": "1", "ttl": "152", "rdlength": "7", "rdata": "115.238.190.241"}

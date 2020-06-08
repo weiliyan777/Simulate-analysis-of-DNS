@@ -1,0 +1,5 @@
+local.dns,127.0.0.1
+root.dns,127.0.0.2
+dns.com,127.0.0.3
+dns2.com,127.0.0.4
+dns.test.com,127.0.0.5

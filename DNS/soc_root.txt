@@ -1,0 +1,2 @@
+{"name": "www.sina.com", "type": "1", "rrclass": "1", "ttl": "156", "rdlength": "7", "rdata": "115.238.190.240"}
+{"name": "www.sina.com", "type": "1", "rrclass": "1", "ttl": "152", "rdlength": "7", "rdata": "115.238.190.241"}

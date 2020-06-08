@@ -1,0 +1,100 @@
+b"ID = \x00\x05 =5                     2
+flag = \x81\x80                        4
+qdcount = \x00\x01 = 1                 6
+ancount = \x00\x01 = 1                 8
+nscount = \x00\x01 = 1                 10
+arcount = \x00\x00 = 0                 12
+qname = \x03www\x05baidu\x03com\x00
+qtype = \x00\x1c = 28                  
+qclass = \x00\x01 = 1                  
+answername = \xc0\x0c
+anstype = \x00\x05 = 5
+ansclass =\x00\x01 = 1
+ansttl = \x00\x00\x02L\x00 = 588
+anslength = \x0f
+ansdata = \x03www\x01a\x06shifen\xc0\x16\xc0/\x00\x06\x00\x01\x00\x00\x00\x83\x00-\x03ns1\xc0/\x10baidu_dns_master\xc0\x10ww0\xe3\x00\x00\x00\x05\x00\x00\x00\x05\x00'\x8d\x00\x00\x00\x0e\x10"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+qiao=1
+mutex=1
+count=0
+F=1
+N_S(){
+    while(1){
+        p(mutex)
+        if count =0 then p(qiao)
+        count++
+        V(mutex)
+        .....上桥....
+        .....下桥....
+        p(mutex)
+        count--
+        if count =0 then V(qiao)
+        V(mutex)
+    }
+}
+
+
+plate=1
+apple=0
+orange=0
+father(){
+    while(1){
+        p(plate)
+        ...放苹果...
+        v(apple)
+    }
+}
+mather(){
+    while(1){
+        p(plate)
+        ...放橘子...
+        v(orange)
+    }
+}
+daughter(){
+    while(1){
+        p(apple)
+        ...吃苹果...
+        V(plate)
+    }
+}
+son(){
+    while(1){
+        p(orange)
+        ...吃橘子...
+        V(plate)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

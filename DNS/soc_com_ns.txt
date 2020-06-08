@@ -1,0 +1,1 @@
+{"name": "dns.test.com", "type": "2", "rrclass": "1", "ttl": "11872", "rdlength": "15", "rdata": "127.0.0.5"}

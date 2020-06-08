@@ -1,0 +1,2 @@
+{"name": "www.kugou.com", "type": "1", "rrclass": "1", "ttl": "1162", "rdlength": "12", "rdata": "171.107.187.2"}
+{"name": "www.kugou.com", "type": "1", "rrclass": "1", "ttl": "872", "rdlength": "15", "rdata": "171.107.187.4"}

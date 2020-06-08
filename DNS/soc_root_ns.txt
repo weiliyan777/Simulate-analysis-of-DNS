@@ -1,0 +1,2 @@
+{"name": "dns.com", "type": "2", "rrclass": "1", "ttl": "8652", "rdlength": "12", "rdata": "127.0.0.3"}
+{"name": "dns2.com", "type": "2", "rrclass": "1", "ttl": "4572", "rdlength": "12", "rdata": "127.0.0.4"}
