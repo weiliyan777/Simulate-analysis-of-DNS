@@ -6,19 +6,32 @@
 大致思想：里面进程模拟dns服务器，利用python的Socket技术在进程之间模拟dns解析的过程
 
 文件描述：
-客户端：client.py(带界面）
+客户端：client.py(带界面
+
 本地服务器：service.py（带界面）
+
 其他级别服务器：service_root.py、service_com.py、service_com2.py、service_testcom.py
+
 codec.py：向缓存文件输入记录内容
+
 put_NandIP.py：向记录着服务器名及地址文件输入记录内容
+
 put_port.py：向记录着服务器地址及端口文件输入记录内容
+
 viewfile.py：窗口查看文件
+
 socclient.py ：不带界面的客户端，实现内容与client.py一致
+
 socservice.py ：不带界面的本地服务器，实现service.py内容与一致
+
 soc_X.txt：表示X服务器缓存
+
 soc_X_ns.txt：表示X服务器NS域缓存
+
 soc_NandIP.txt：服务器名及地址文件
+
 soc_serv_port.txt：服务器地址及端口文件
+
 
 dnstest文件夹内文件属于功能测试文件
 
